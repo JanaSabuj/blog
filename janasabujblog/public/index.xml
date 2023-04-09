@@ -9,6 +9,16 @@
     <copyright>Copyright © 2023, Sabuj Jana.</copyright>
     <lastBuildDate>Sun, 09 Apr 2023 08:13:06 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Library</title>
+      <link>https://janasabuj.github.io/library/</link>
+      <pubDate>Sun, 09 Apr 2023 16:04:58 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/library/</guid>
+      <description>In this modern age of Internet and instant gratification, we have lost the desire to read. But I am old school, I still love the feeling of completing a book end-to-end.
+To be honest, the sheer amount of research and dedication required on the author&amp;rsquo;s part to write a book is testimony to the fact that the knowledge gained after reading it will be useful at some point in life. Also, a book can be our closest friend.</description>
+    </item>
+    
+    <item>
       <title>HELM-ing our Kubernetes deployed Golang music api</title>
       <link>https://janasabuj.github.io/posts/musicapik8s-helm/</link>
       <pubDate>Sat, 01 Apr 2023 11:42:33 +0530</pubDate>
