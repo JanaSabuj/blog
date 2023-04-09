@@ -1,6 +1,7 @@
 ---
 title: "Library"
 date: 2023-04-09T16:04:58+05:30
+description: A collection of books I have/will read 
 menu: main
 weight: 3
 ---
@@ -15,9 +16,15 @@ at some point in life. Also, a book can be our closest friend.
 Suggest me a book [here](mailto:jsabujofficial@gmail.com). 
 
 ## Currently Reading
-```shell
+
+### Cloud Native
+```yaml
 * Istio In Action [Manning Publications]
 * Kubernetes in Action [Manning Publications]
+```
+
+### Go
+```yaml
 * Network Programming in Go [No Starch Press]
 ```
 
