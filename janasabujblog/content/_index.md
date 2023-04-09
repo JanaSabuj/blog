@@ -1,5 +1,5 @@
 ---
-title: "Sabuj Jana - Welcome to my Personal Space on the Internet"
+title: "Sabuj Jana - Personal Space on the Internet"
 date: 2023-04-09T08:13:06+05:30
 name: home
 tags:
