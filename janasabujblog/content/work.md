@@ -5,7 +5,10 @@ menu: main
 weight: 3
 enableGitInfo: true
 copyright: hhh
-tags: resume, work, company
+tags: 
+- resume
+- work
+- company
 ---
 
 sd
