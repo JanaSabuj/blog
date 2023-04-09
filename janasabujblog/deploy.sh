@@ -16,12 +16,13 @@ echo "Updating master branch"
 cd public
 git init
 
-git config --global push.default matching
-git config --global user.email "${GitHubEMail}"
-git config --global user.name "${GitHubUser}"
+git config --local push.default matching
+git config --local user.email "${GitHubEmail}"
+git config --local user.name "${GitHubUser}"
 
 git add --all .
 git commit -m "Publishing to master (deploy.sh)"
 
 echo "Pushing to github"
-git push --quiet --force https://${GitHubKEY}@github.com/${GitHubUser}/${GitHubRepo}.git master
+# git push --quiet --force https://${GitHubKEY}@github.com/${GitHubUser}/${GitHubRepo}.git master
+git push --quiet --force git@github.com:${GitHubUser}/JanaSabuj.github.io.git master

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sabuj Jana - Welcome to my Personal Space on the Internet on Sabuj Jana</title>
-    <link>https://janasabuj.github.io/</link>
-    <description>Recent content in Sabuj Jana - Welcome to my Personal Space on the Internet on Sabuj Jana</description>
+    <title>medium on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/medium/</link>
+    <description>Recent content in medium on Sabuj Jana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023, Sabuj Jana.</copyright>
-    <lastBuildDate>Sun, 09 Apr 2023 08:13:06 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Apr 2023 11:42:33 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/medium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HELM-ing our Kubernetes deployed Golang music api</title>
       <link>https://janasabuj.github.io/posts/musicapik8s-helm/</link>
