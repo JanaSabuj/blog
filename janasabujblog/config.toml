@@ -15,7 +15,6 @@ enableRobotsTXT = true
 # copyright = "You"
 disqusShortname = "sabuj_jana"
 
-
 # Main menu which appears below site header.
 [[menu.main]]
 #name = "home"
