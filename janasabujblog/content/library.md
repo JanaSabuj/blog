@@ -18,13 +18,13 @@ Suggest me a book [here](mailto:jsabujofficial@gmail.com).
 ## Currently Reading
 
 ### Cloud Native
-```yaml
+```cpp
 * Istio In Action [Manning Publications]
 * Kubernetes in Action [Manning Publications]
 ```
 
 ### Go
-```yaml
+```cpp
 * Network Programming in Go [No Starch Press]
 ```
 
