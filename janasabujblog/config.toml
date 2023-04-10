@@ -12,6 +12,10 @@ copyright = "Copyright © 2023, Sabuj Jana."
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+#GA4
+googleAnalytics = "G-E1M8TMN7F5"
+
+
 # copyright = "You"
 disqusShortname = "sabuj_jana"
 
