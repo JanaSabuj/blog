@@ -6,7 +6,7 @@ tags:
 - intro
 ---
 
-Hello, My name is *Sabuj*. Welcome to my personal space in the vast Internet ! 
+Hello, My name is *Sabuj* (translates to *green* in Bengali). Welcome to my personal space in the vast Internet ! 
 
 I work as a Software Engineer in [Flipkart](https://www.flipkart.com/) and love experimenting with technology, especially *cloud native*. I like to share my thoughts and coding experiments through tech [blogs]({{< ref "/posts" >}} "Blogs") on *Medium*. Talk to me up about: *linux, networks, systems, elb, golang, cloud, kuberentes, istio, cilium, docker, c++ etc.* 
 
@@ -21,19 +21,19 @@ I like *thought-provoking* discussions and am the *foolish* kid who wants to bra
 
 In my spare time, I like to study the lives of tech founders, Ceos and programmers. Favourite Movie: *"The Social Network (2010)"*
 
-Previously, I have spent time coding at [these](https://www.linkedin.com/in/sabujisme) companies. Check out my writings [here]({{< ref "/posts">}}). 
+Previously, I have spent time coding at [these]({{< ref "/work">}}) companies. Check out my writings [here]({{< ref "/posts">}}). 
 
 There is more to me but [*Brevity is the soul of wit*]().
 
 #### Get in Touch:
-* [Github](https://github.com/JanaSabuj)
-* [LinkedIn](https://www.linkedin.com/in/sabujisme)
-* [Medium](https://medium.com/@SabujJanaCodes)
-* [Twitter](https://twitter.com/SabujJanaCodes)
-* [Instagram](https://www.instagram.com/sabuj_is_me)
+* github: [@JanaSabuj](https://github.com/JanaSabuj)
+* linkedin: [@sabujisme](https://www.linkedin.com/in/sabujisme)
+* medium: [@SabujJanaCodes](https://medium.com/@SabujJanaCodes)
+* twitter: [@SabujJanaCodes](https://twitter.com/SabujJanaCodes)
+* instagram: [@sabuj_is_me](https://www.instagram.com/sabuj_is_me)
 
 #### Discuss a breakthrough idea ?
-* [Email](mailto:jsabujofficial@gmail.com) me
+* Email me : [jsabujofficial@gmail.com](mailto:jsabujofficial@gmail.com)
 
 #### Subscribe
 You can subscribe to my [*Medium newsletter*](https://medium.com/@SabujJanaCodes/subscribe) here.

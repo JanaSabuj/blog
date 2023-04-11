@@ -28,12 +28,12 @@ disqusShortname = "sabuj_jana"
 [[menu.main]]
 name = "Blogs"
 url = "/posts"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 5
 
 [taxonomies]
   tag = "tags"
