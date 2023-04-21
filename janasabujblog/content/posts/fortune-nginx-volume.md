@@ -8,6 +8,7 @@ tags:
 - docker
 - nginx
 ---
+We all know that each container in a Kubernetes Pod gets its own filesystem. Also Pods are ephemeral i.e, they get restarted frequently. This means that any data that was written by the pod into its own filesystem will be lost once the container restarts, and the new container (even though in the same pod) will not see the data written by the previous container.
 
 Performed a small fun experiment to demonstrate the concept of shared volumes between the containers in the same Kubernetes Pod. 
 

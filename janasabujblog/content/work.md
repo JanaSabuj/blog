@@ -6,7 +6,7 @@ menu: main
 weight: 2
 ---
 
-Backend and Platform Engineer. 
+Backend and Platform/Infra Engineer. 
 
 ## Work
 
