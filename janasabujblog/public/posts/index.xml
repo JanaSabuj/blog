@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023, Sabuj Jana.</copyright>
-    <lastBuildDate>Sat, 01 Apr 2023 11:42:33 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 May 2023 00:37:14 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Kubernetes Operator in GO: Reconciling our PdfDoc CRD for Converting Text to PDF files</title>
+      <link>https://janasabuj.github.io/posts/pdfdoc-crd-operator/</link>
+      <pubDate>Sat, 13 May 2023 00:37:14 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/pdfdoc-crd-operator/</guid>
+      <description>In this blog, we write a Kubernetes operator in Golang, using Kubebuilder framework for the initial scaffolding. Writing a k8s operator lets us react to events in the cluster and reconcile the cluster state in response to such triggers.
+We create our custom CRD (named PdfDoc) and configure the k8s operator to respond to the CRD creation events. This blog will will serve as the foundation for writing more advanced controllers in Go for Kubernetes tooling.</description>
+    </item>
+    
+    <item>
+      <title>Shared Volume in Kubernetes Pod: A fun experiment</title>
+      <link>https://janasabuj.github.io/posts/fortune-nginx-volume/</link>
+      <pubDate>Fri, 21 Apr 2023 21:48:32 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/fortune-nginx-volume/</guid>
+      <description>We all know that each container in a Kubernetes Pod gets its own filesystem. Also Pods are ephemeral i.e, they get restarted frequently. This means that any data that was written by the pod into its own filesystem will be lost once the container restarts, and the new container (even though in the same pod) will not see the data written by the previous container.
+Performed a small fun experiment to demonstrate the concept of shared volumes between the containers in the same Kubernetes Pod.</description>
+    </item>
+    
     <item>
       <title>HELM-ing our Kubernetes deployed Golang music api</title>
       <link>https://janasabuj.github.io/posts/musicapik8s-helm/</link>
