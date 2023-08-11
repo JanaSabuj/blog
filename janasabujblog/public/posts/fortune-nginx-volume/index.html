@@ -17,7 +17,8 @@ Performed a small fun experiment to demonstrate the concept of shared volumes be
 <meta property="og:description" content="We all know that each container in a Kubernetes Pod gets its own filesystem. Also Pods are ephemeral i.e, they get restarted frequently. This means that any data that was written by the pod into its own filesystem will be lost once the container restarts, and the new container (even though in the same pod) will not see the data written by the previous container.
 Performed a small fun experiment to demonstrate the concept of shared volumes between the containers in the same Kubernetes Pod." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://janasabuj.github.io/posts/fortune-nginx-volume/" /><meta property="og:image" content="https://janasabuj.github.io/images/share.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://janasabuj.github.io/posts/fortune-nginx-volume/" />
+<meta property="og:image" content="https://janasabuj.github.io/images/share.png"/>
 <meta property="article:published_time" content="2023-04-21T21:48:32+05:30" />
 <meta property="article:modified_time" content="2023-04-21T21:48:32+05:30" /><meta property="og:site_name" content="Sabuj Jana" />
 
@@ -34,9 +35,14 @@ Performed a small fun experiment to demonstrate the concept of shared volumes be
 
 <meta itemprop="name" content="Shared Volume in Kubernetes Pod: A fun experiment">
 <meta itemprop="description" content="We all know that each container in a Kubernetes Pod gets its own filesystem. Also Pods are ephemeral i.e, they get restarted frequently. This means that any data that was written by the pod into its own filesystem will be lost once the container restarts, and the new container (even though in the same pod) will not see the data written by the previous container.
-Performed a small fun experiment to demonstrate the concept of shared volumes between the containers in the same Kubernetes Pod."><meta itemprop="datePublished" content="2023-04-21T21:48:32+05:30" />
-<meta itemprop="dateModified" content="2023-04-21T21:48:32+05:30" />
-<meta itemprop="wordCount" content="123"><meta itemprop="image" content="https://janasabuj.github.io/images/share.png"/>
+Performed a small fun experiment to demonstrate the concept of shared volumes between the containers in the same Kubernetes Pod.">
+<meta itemprop="datePublished" content="2023-04-21T21:48:32&#43;05:30" />
+<meta itemprop="dateModified" content="2023-04-21T21:48:32&#43;05:30" />
+<meta itemprop="wordCount" content="123">
+<meta itemprop="image" content="https://janasabuj.github.io/images/share.png"/>
+
+
+
 <meta itemprop="keywords" content="kubernetes,linux,ubuntu,docker,nginx," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -165,13 +171,13 @@ Performed a small fun experiment to demonstrate the concept of shared volumes be
   }
 
   ul.blog-posts li a:visited {
-    color: #db530a;
+    color: #8b6fcb;
   }
 
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #252222;
-      color: #fffefe;
+      background-color: #333;
+      color: #ddd;
     }
 
     h1,
@@ -186,7 +192,7 @@ Performed a small fun experiment to demonstrate the concept of shared volumes be
     }
 
     a {
-      color: #00d92f;
+      color: #8cc2dd;
     }
 
     code {
@@ -194,7 +200,7 @@ Performed a small fun experiment to demonstrate the concept of shared volumes be
     }
 
     pre code {
-      color: #fffefe;
+      color: #ddd;
     }
 
     blockquote {
@@ -204,26 +210,17 @@ Performed a small fun experiment to demonstrate the concept of shared volumes be
     textarea,
     input {
       background-color: #252525;
-      color: #fffefe;
+      color: #ddd;
     }
 
     .helptext {
       color: #aaa;
     }
-
-    ul.blog-posts li a:visited {
-      color: #cedb0a;
-    }
   }
 
 </style>
 
-  <style>
-    a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-</style></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -258,13 +255,13 @@ html reading from the same shared volume.</p>
   
   <a href="https://janasabuj.github.io/tags/kubernetes/">#kubernetes</a>
   
-  <a href="https://janasabuj.github.io/tags/linux/">#linux</a>
-  
-  <a href="https://janasabuj.github.io/tags/ubuntu/">#ubuntu</a>
-  
   <a href="https://janasabuj.github.io/tags/docker/">#docker</a>
   
+  <a href="https://janasabuj.github.io/tags/linux/">#linux</a>
+  
   <a href="https://janasabuj.github.io/tags/nginx/">#nginx</a>
+  
+  <a href="https://janasabuj.github.io/tags/ubuntu/">#ubuntu</a>
   
 </p>
 

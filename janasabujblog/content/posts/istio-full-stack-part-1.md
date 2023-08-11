@@ -9,7 +9,7 @@ tags:
 - cloud
 - medium
 ---
-📖 Read the full blog here: https://lnkd.in/gDZTHZkb
+📖 Read the full blog here: https://medium.com/@SabujJanaCodes/running-a-full-stack-app-in-istio-service-mesh-part-1-87b828f4d1cc
 
 🗄 Most workloads today are running on Kubernetes. But is only Kubernetes enough for companies? To solve the problems of Networking, Observability, Security, Traffic Control - the world is moving towards ServiceMesh - with Istio being the open source leading service mesh.
 

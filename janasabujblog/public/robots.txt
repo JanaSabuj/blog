@@ -1,1 +1,2 @@
-User-agent: *
+User-Agent: *
+Sitemap: https://janasabuj.github.io/sitemap.xml

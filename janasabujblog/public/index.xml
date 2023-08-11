@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023, Sabuj Jana.</copyright>
-    <lastBuildDate>Sun, 09 Apr 2023 08:13:06 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 08:13:06 +0530</lastBuildDate>
+    
+	<atom:link href="https://janasabuj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Work</title>
       <link>https://janasabuj.github.io/work/</link>
@@ -16,9 +20,9 @@
       <guid>https://janasabuj.github.io/work/</guid>
       <description>Backend and Platform/Infra Engineer.
 Work Software Development Engineer 1, Flipkart Bengaluru, July 2022 - Present
-Building critical Cloud Native infra for Flipkart Internships Software Development Engineer Intern, Amazon Remote, Jan 2022 - Jun 2022
-Member of the Seller Compliance Tech Team. Software Engineer Intern - Backend, Trell Remote, Sep 2021 - Feb 2022
-Member of the Trell Feed Team Software Engineer Intern, Wells Fargo Remote, Jun 2021 - Jul 2021</description>
+ Building critical Cloud Native infra for Flipkart   Internships Software Development Engineer Intern, Amazon Remote, Jan 2022 - Jun 2022
+ Member of the Seller Compliance Tech Team.  Software Engineer Intern - Backend, Trell Remote, Sep 2021 - Feb 2022
+ Member of the Trell Feed Team  Software Engineer Intern, Wells Fargo Remote, Jun 2021 - Jul 2021</description>
     </item>
     
     <item>
@@ -29,6 +33,18 @@ Member of the Trell Feed Team Software Engineer Intern, Wells Fargo Remote, Jun 
       <guid>https://janasabuj.github.io/library/</guid>
       <description>In this modern age of Internet and instant gratification, we have lost the desire to read. But I am old school, I still love the feeling of completing a book end-to-end.
 To be honest, the sheer amount of research and dedication required on the author&amp;rsquo;s part to write a book is testimony to the fact that the knowledge gained after reading it will be useful at some point in life. Also, a book can be our closest friend.</description>
+    </item>
+    
+    <item>
+      <title>Running a Full Stack App in Istio Service Mesh — Part 1</title>
+      <link>https://janasabuj.github.io/posts/istio-full-stack-part-1/</link>
+      <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/istio-full-stack-part-1/</guid>
+      <description>📖 Read the full blog here: https://medium.com/@SabujJanaCodes/running-a-full-stack-app-in-istio-service-mesh-part-1-87b828f4d1cc
+🗄 Most workloads today are running on Kubernetes. But is only Kubernetes enough for companies? To solve the problems of Networking, Observability, Security, Traffic Control - the world is moving towards ServiceMesh - with Istio being the open source leading service mesh.
+Istio enables organizations to secure, connect, and monitor microservices, so they can modernize their enterprise apps more swiftly and securely.
+🎯 In this blog, we setup a full stack app in Istio and deploy Istio objects like Gateway, VirtualService, Istio IngressGateway etc.</description>
     </item>
     
     <item>
@@ -131,8 +147,8 @@ I blogged about the experience here on Medium.</description>
       
       <guid>https://janasabuj.github.io/posts/cptracker/</guid>
       <description>I developed a full stack app that will track and present the Past, Live and Future contests on the most popular sport programming sites.
-Codeforces Codechef Atcoder TopCoder HackerEarth HackerRank Leetcode Facebook Google CSAcademy
-The 3 types of contests are split across 3 different routes. Each of them is colour coded for better user understanding. Each contest has a link with which you can directly visit the specific programming site</description>
+ Codeforces Codechef Atcoder TopCoder HackerEarth HackerRank Leetcode Facebook Google CSAcademy
+ The 3 types of contests are split across 3 different routes. Each of them is colour coded for better user understanding. Each contest has a link with which you can directly visit the specific programming site</description>
     </item>
     
     <item>

@@ -17,7 +17,8 @@ In this blog, we build a golang backend music rest api and deploy it on Kubernet
 <meta property="og:description" content="We love building backend applications. But have we ever thought of building it cloud-natively? Did we ever keep in mind the deployment process and the underlying infra that would eventually be running our app ?
 In this blog, we build a golang backend music rest api and deploy it on Kubernetes. We use a lot of k8s constructs like Pods, Deployments, Services, ConfigMaps, Secrets, PersistentVolumeClaims, PersistentVolumes, port-forwarding etc - all in one - for deploying our backend app." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://janasabuj.github.io/posts/musicapik8s/" /><meta property="og:image" content="https://janasabuj.github.io/images/share.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://janasabuj.github.io/posts/musicapik8s/" />
+<meta property="og:image" content="https://janasabuj.github.io/images/share.png"/>
 <meta property="article:published_time" content="2023-03-14T11:37:16+05:30" />
 <meta property="article:modified_time" content="2023-03-14T11:37:16+05:30" /><meta property="og:site_name" content="Sabuj Jana" />
 
@@ -34,9 +35,14 @@ In this blog, we build a golang backend music rest api and deploy it on Kubernet
 
 <meta itemprop="name" content="Building a Golang Music API and Deploying it on K8s">
 <meta itemprop="description" content="We love building backend applications. But have we ever thought of building it cloud-natively? Did we ever keep in mind the deployment process and the underlying infra that would eventually be running our app ?
-In this blog, we build a golang backend music rest api and deploy it on Kubernetes. We use a lot of k8s constructs like Pods, Deployments, Services, ConfigMaps, Secrets, PersistentVolumeClaims, PersistentVolumes, port-forwarding etc - all in one - for deploying our backend app."><meta itemprop="datePublished" content="2023-03-14T11:37:16+05:30" />
-<meta itemprop="dateModified" content="2023-03-14T11:37:16+05:30" />
-<meta itemprop="wordCount" content="196"><meta itemprop="image" content="https://janasabuj.github.io/images/share.png"/>
+In this blog, we build a golang backend music rest api and deploy it on Kubernetes. We use a lot of k8s constructs like Pods, Deployments, Services, ConfigMaps, Secrets, PersistentVolumeClaims, PersistentVolumes, port-forwarding etc - all in one - for deploying our backend app.">
+<meta itemprop="datePublished" content="2023-03-14T11:37:16&#43;05:30" />
+<meta itemprop="dateModified" content="2023-03-14T11:37:16&#43;05:30" />
+<meta itemprop="wordCount" content="196">
+<meta itemprop="image" content="https://janasabuj.github.io/images/share.png"/>
+
+
+
 <meta itemprop="keywords" content="golang,docker,cloud,api,mysql,medium," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -165,13 +171,13 @@ In this blog, we build a golang backend music rest api and deploy it on Kubernet
   }
 
   ul.blog-posts li a:visited {
-    color: #db530a;
+    color: #8b6fcb;
   }
 
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #252222;
-      color: #fffefe;
+      background-color: #333;
+      color: #ddd;
     }
 
     h1,
@@ -186,7 +192,7 @@ In this blog, we build a golang backend music rest api and deploy it on Kubernet
     }
 
     a {
-      color: #00d92f;
+      color: #8cc2dd;
     }
 
     code {
@@ -194,7 +200,7 @@ In this blog, we build a golang backend music rest api and deploy it on Kubernet
     }
 
     pre code {
-      color: #fffefe;
+      color: #ddd;
     }
 
     blockquote {
@@ -204,26 +210,17 @@ In this blog, we build a golang backend music rest api and deploy it on Kubernet
     textarea,
     input {
       background-color: #252525;
-      color: #fffefe;
+      color: #ddd;
     }
 
     .helptext {
       color: #aaa;
     }
-
-    ul.blog-posts li a:visited {
-      color: #cedb0a;
-    }
   }
 
 </style>
 
-  <style>
-    a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-</style></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -256,17 +253,17 @@ In this blog, we build a golang backend music rest api and deploy it on Kubernet
 </content>
 <p>
   
+  <a href="https://janasabuj.github.io/tags/cloud/">#cloud</a>
+  
   <a href="https://janasabuj.github.io/tags/golang/">#golang</a>
   
-  <a href="https://janasabuj.github.io/tags/docker/">#docker</a>
+  <a href="https://janasabuj.github.io/tags/medium/">#medium</a>
   
-  <a href="https://janasabuj.github.io/tags/cloud/">#cloud</a>
+  <a href="https://janasabuj.github.io/tags/docker/">#docker</a>
   
   <a href="https://janasabuj.github.io/tags/api/">#api</a>
   
   <a href="https://janasabuj.github.io/tags/mysql/">#mysql</a>
-  
-  <a href="https://janasabuj.github.io/tags/medium/">#medium</a>
   
 </p>
 

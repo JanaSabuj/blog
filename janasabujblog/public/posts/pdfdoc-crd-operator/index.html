@@ -17,7 +17,8 @@ We create our custom CRD (named PdfDoc) and configure the k8s operator to respon
 <meta property="og:description" content="In this blog, we write a Kubernetes operator in Golang, using Kubebuilder framework for the initial scaffolding. Writing a k8s operator lets us react to events in the cluster and reconcile the cluster state in response to such triggers.
 We create our custom CRD (named PdfDoc) and configure the k8s operator to respond to the CRD creation events. This blog will will serve as the foundation for writing more advanced controllers in Go for Kubernetes tooling." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://janasabuj.github.io/posts/pdfdoc-crd-operator/" /><meta property="og:image" content="https://janasabuj.github.io/images/share.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://janasabuj.github.io/posts/pdfdoc-crd-operator/" />
+<meta property="og:image" content="https://janasabuj.github.io/images/share.png"/>
 <meta property="article:published_time" content="2023-05-13T00:37:14+05:30" />
 <meta property="article:modified_time" content="2023-05-13T00:37:14+05:30" /><meta property="og:site_name" content="Sabuj Jana" />
 
@@ -34,9 +35,14 @@ We create our custom CRD (named PdfDoc) and configure the k8s operator to respon
 
 <meta itemprop="name" content="Building a Kubernetes Operator in GO: Reconciling our PdfDoc CRD for Converting Text to PDF files">
 <meta itemprop="description" content="In this blog, we write a Kubernetes operator in Golang, using Kubebuilder framework for the initial scaffolding. Writing a k8s operator lets us react to events in the cluster and reconcile the cluster state in response to such triggers.
-We create our custom CRD (named PdfDoc) and configure the k8s operator to respond to the CRD creation events. This blog will will serve as the foundation for writing more advanced controllers in Go for Kubernetes tooling."><meta itemprop="datePublished" content="2023-05-13T00:37:14+05:30" />
-<meta itemprop="dateModified" content="2023-05-13T00:37:14+05:30" />
-<meta itemprop="wordCount" content="93"><meta itemprop="image" content="https://janasabuj.github.io/images/share.png"/>
+We create our custom CRD (named PdfDoc) and configure the k8s operator to respond to the CRD creation events. This blog will will serve as the foundation for writing more advanced controllers in Go for Kubernetes tooling.">
+<meta itemprop="datePublished" content="2023-05-13T00:37:14&#43;05:30" />
+<meta itemprop="dateModified" content="2023-05-13T00:37:14&#43;05:30" />
+<meta itemprop="wordCount" content="93">
+<meta itemprop="image" content="https://janasabuj.github.io/images/share.png"/>
+
+
+
 <meta itemprop="keywords" content="kubernetes,golang,k8soperator,cluster,docker,pandoc," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -165,13 +171,13 @@ We create our custom CRD (named PdfDoc) and configure the k8s operator to respon
   }
 
   ul.blog-posts li a:visited {
-    color: #db530a;
+    color: #8b6fcb;
   }
 
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #252222;
-      color: #fffefe;
+      background-color: #333;
+      color: #ddd;
     }
 
     h1,
@@ -186,7 +192,7 @@ We create our custom CRD (named PdfDoc) and configure the k8s operator to respon
     }
 
     a {
-      color: #00d92f;
+      color: #8cc2dd;
     }
 
     code {
@@ -194,7 +200,7 @@ We create our custom CRD (named PdfDoc) and configure the k8s operator to respon
     }
 
     pre code {
-      color: #fffefe;
+      color: #ddd;
     }
 
     blockquote {
@@ -204,26 +210,17 @@ We create our custom CRD (named PdfDoc) and configure the k8s operator to respon
     textarea,
     input {
       background-color: #252525;
-      color: #fffefe;
+      color: #ddd;
     }
 
     .helptext {
       color: #aaa;
     }
-
-    ul.blog-posts li a:visited {
-      color: #cedb0a;
-    }
   }
 
 </style>
 
-  <style>
-    a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-</style></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -255,15 +252,15 @@ We create our custom CRD (named PdfDoc) and configure the k8s operator to respon
 </content>
 <p>
   
-  <a href="https://janasabuj.github.io/tags/kubernetes/">#kubernetes</a>
-  
   <a href="https://janasabuj.github.io/tags/golang/">#golang</a>
   
-  <a href="https://janasabuj.github.io/tags/k8soperator/">#k8soperator</a>
+  <a href="https://janasabuj.github.io/tags/kubernetes/">#kubernetes</a>
   
   <a href="https://janasabuj.github.io/tags/cluster/">#cluster</a>
   
   <a href="https://janasabuj.github.io/tags/docker/">#docker</a>
+  
+  <a href="https://janasabuj.github.io/tags/k8soperator/">#k8soperator</a>
   
   <a href="https://janasabuj.github.io/tags/pandoc/">#pandoc</a>
   

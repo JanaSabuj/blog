@@ -25,7 +25,7 @@ git commit -m "Publishing to master (deploy.sh)"
 
 echo "Pushing to github"
 # git push --quiet --force https://${GitHubKEY}@github.com/${GitHubUser}/${GitHubRepo}.git master
-git push --quiet --force git@github.com:${GitHubUser}/JanaSabuj.github.io.git master
+git push --force git@github.com:${GitHubUser}/JanaSabuj.github.io.git master
 
 # export GitHubEmail=sabujlovescoding@gmail.com
 # export GitHubUser=JanaSabuj
