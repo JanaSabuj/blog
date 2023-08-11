@@ -16,6 +16,10 @@ echo "Updating master branch"
 cd public
 git init
 
+# Github variables 
+export GitHubEmail=sabujlovescoding@gmail.com
+export GitHubUser=JanaSabuj
+
 git config --local push.default matching
 git config --local user.email "${GitHubEmail}"
 git config --local user.name "${GitHubUser}"
