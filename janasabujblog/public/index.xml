@@ -20,9 +20,19 @@
       <guid>https://janasabuj.github.io/work/</guid>
       <description>Backend and Platform/Infra Engineer.
 Work Software Development Engineer 1, Flipkart Bengaluru, July 2022 - Present
- Building critical Cloud Native infra for Flipkart   Internships Software Development Engineer Intern, Amazon Remote, Jan 2022 - Jun 2022
- Member of the Seller Compliance Tech Team.  Software Engineer Intern - Backend, Trell Remote, Sep 2021 - Feb 2022
- Member of the Trell Feed Team  Software Engineer Intern, Wells Fargo Remote, Jun 2021 - Jul 2021</description>
+ Writing critical Cloud Native software for Flipkart Cloud Platform (FCP) Currently writing K8s and Istio custom golang Operators for our on-prem/GCP Istio clusters Working on the Hybrid Cloud journey (on-prem+public cloud) of Flipkart with GCP   Internships Software Development Engineer Intern, Amazon Remote, Jan 2022 - Jun 2022
+ Member of the Seller Compliance Tech Team.</description>
+    </item>
+    
+    <item>
+      <title>Clearing GCP Professional Cloud Developer Certification</title>
+      <link>https://janasabuj.github.io/posts/gcp-prof-dev-certification/</link>
+      <pubDate>Thu, 17 Aug 2023 17:38:21 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/gcp-prof-dev-certification/</guid>
+      <description>It has been few months that I have been working with GCP products and offerings. Recently, I recieved a company-sponsored opportunity to avail the GCP Professional Cloud Developer certification.
+Certfication I went for : https://cloud.google.com/learn/certification/cloud-developer
+Blog about the experience and preparation: https://medium.com/@SabujJanaCodes/clearing-gcp-professional-cloud-developer-certification-38c4de5e1865</description>
     </item>
     
     <item>

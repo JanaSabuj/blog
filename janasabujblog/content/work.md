@@ -12,7 +12,9 @@ Backend and Platform/Infra Engineer.
 
 #### Software Development Engineer 1, Flipkart
 Bengaluru, *July 2022 - Present*
-- Building critical Cloud Native infra for Flipkart 
+- Writing critical Cloud Native software for Flipkart Cloud Platform (FCP)
+- Currently writing K8s and Istio custom golang Operators for our on-prem/GCP Istio clusters
+- Working on the Hybrid Cloud journey (on-prem+public cloud) of Flipkart with GCP
 
 ---
 
