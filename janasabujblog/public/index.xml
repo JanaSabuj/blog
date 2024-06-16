@@ -19,9 +19,19 @@
       
       <guid>https://janasabuj.github.io/work/</guid>
       <description>Backend and Platform/Infra Engineer.
-Work Software Development Engineer 1, Flipkart Bengaluru, July 2022 - Present
- Writing critical Cloud Native software for Flipkart Cloud Platform (FCP) Currently writing K8s and Istio custom golang Operators for our on-prem/GCP Istio clusters Working on the Hybrid Cloud journey (on-prem+public cloud) of Flipkart with GCP   Internships Software Development Engineer Intern, Amazon Remote, Jan 2022 - Jun 2022
- Member of the Seller Compliance Tech Team.</description>
+Work SDE2, Flipkart Bengaluru, Apr 2024 - Present
+ Building an on-prem cloud native kubernetes operator solution to rollout Istio for entire Flipkart ecosystem Tech Stack: Golang, Istio, Kubernetes, Kubebuilder, FCP, Google Kubernetes Engine (GKE)  SDE1, Flipkart Bengaluru, July 2022 - Present
+ Writing critical Cloud Native software for Flipkart Cloud Platform (FCP) Currently writing K8s and Istio custom golang Operators for our on-prem/GCP Istio clusters Working on the Hybrid Cloud journey (on-prem+public cloud) of Flipkart with GCP   Internships Software Development Engineer Intern, Amazon Remote, Jan 2022 - Jun 2022</description>
+    </item>
+    
+    <item>
+      <title>Touring the Kubernetes Istio Ambient Mesh — Part 1: Setup, ZTunnel</title>
+      <link>https://janasabuj.github.io/posts/istio-ambient/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/istio-ambient/</guid>
+      <description>Recently, I have been working a lot with Istio Service Mesh in Flipkart.Now that Istio Ambient Mesh has been released, it was high time that I do my bit of self-exploration of the same, before moving ahead with it in Production. The long weekend seemed perfect for this :)
+In this blog, we setup our home kubernetes cluster and start exploring the Istio ambient mesh. The focal point of this new dataplane mode is that it is a sidecar-less model and hence the fat cash savings we have against compute power and cloud bills.</description>
     </item>
     
     <item>

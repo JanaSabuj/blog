@@ -7,10 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023, Sabuj Jana.</copyright>
-    <lastBuildDate>Thu, 17 Aug 2023 17:38:21 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2024 19:39:33 +0530</lastBuildDate>
     
 	<atom:link href="https://janasabuj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ambient</title>
+      <link>https://janasabuj.github.io/tags/ambient/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/ambient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://janasabuj.github.io/tags/cloud/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://janasabuj.github.io/tags/docker/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://janasabuj.github.io/tags/golang/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>istio</title>
+      <link>https://janasabuj.github.io/tags/istio/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://janasabuj.github.io/tags/kubernetes/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medium</title>
+      <link>https://janasabuj.github.io/tags/medium/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/medium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>waypoint</title>
+      <link>https://janasabuj.github.io/tags/waypoint/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/waypoint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ztunnel</title>
+      <link>https://janasabuj.github.io/tags/ztunnel/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/tags/ztunnel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>certification</title>
@@ -18,15 +99,6 @@
       <pubDate>Thu, 17 Aug 2023 17:38:21 +0530</pubDate>
       
       <guid>https://janasabuj.github.io/tags/certification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud</title>
-      <link>https://janasabuj.github.io/tags/cloud/</link>
-      <pubDate>Thu, 17 Aug 2023 17:38:21 +0530</pubDate>
-      
-      <guid>https://janasabuj.github.io/tags/cloud/</guid>
       <description></description>
     </item>
     
@@ -45,42 +117,6 @@
       <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
       
       <guid>https://janasabuj.github.io/tags/fullstack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://janasabuj.github.io/tags/golang/</link>
-      <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
-      
-      <guid>https://janasabuj.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>istio</title>
-      <link>https://janasabuj.github.io/tags/istio/</link>
-      <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
-      
-      <guid>https://janasabuj.github.io/tags/istio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://janasabuj.github.io/tags/kubernetes/</link>
-      <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
-      
-      <guid>https://janasabuj.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>medium</title>
-      <link>https://janasabuj.github.io/tags/medium/</link>
-      <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
-      
-      <guid>https://janasabuj.github.io/tags/medium/</guid>
       <description></description>
     </item>
     
@@ -117,15 +153,6 @@
       <pubDate>Sat, 13 May 2023 00:37:14 +0530</pubDate>
       
       <guid>https://janasabuj.github.io/tags/cluster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://janasabuj.github.io/tags/docker/</link>
-      <pubDate>Sat, 13 May 2023 00:37:14 +0530</pubDate>
-      
-      <guid>https://janasabuj.github.io/tags/docker/</guid>
       <description></description>
     </item>
     

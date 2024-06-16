@@ -10,7 +10,12 @@ Backend and Platform/Infra Engineer.
 
 ## Work
 
-#### Software Development Engineer 1, Flipkart
+#### SDE2, Flipkart
+Bengaluru, *Apr 2024 - Present*
+- Building an on-prem cloud native kubernetes operator solution to rollout Istio for entire Flipkart ecosystem 
+- Tech Stack: Golang, Istio, Kubernetes, Kubebuilder, FCP, Google Kubernetes Engine (GKE)
+
+#### SDE1, Flipkart
 Bengaluru, *July 2022 - Present*
 - Writing critical Cloud Native software for Flipkart Cloud Platform (FCP)
 - Currently writing K8s and Istio custom golang Operators for our on-prem/GCP Istio clusters

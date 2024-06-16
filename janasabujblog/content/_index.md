@@ -19,11 +19,13 @@ Music is my companion, especially while programmming. I believe *good music* fue
 
 I like *thought-provoking* discussions and am the *foolish* kid who wants to brainstorm about changing something for better. 
 
-In my spare time, I like to study the lives of tech founders, Ceos and programmers. Favourite Movie: *"The Social Network (2010)"*
-
 Previously, I have spent time coding at [these]({{< ref "/work">}}) companies. Check out my writings [here]({{< ref "/posts">}}). 
 
+In my spare time, I like to study the lives of tech founders, Ceos and programmers. Favourite Movie: *"The Social Network (2010)"*
+
 Ever since relocating to Bengaluru, I have taken up cooking, initially for survival and now it has turned fun. Would surely love a cooking companion :)
+
+I am also interested in financial markets. Gradually losing myself in stock charts :)
 
 There is more to me but [*Brevity is the soul of wit*]().
 

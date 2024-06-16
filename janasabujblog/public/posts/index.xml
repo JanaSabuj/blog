@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2023, Sabuj Jana.</copyright>
-    <lastBuildDate>Thu, 17 Aug 2023 17:38:21 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2024 19:39:33 +0530</lastBuildDate>
     
 	<atom:link href="https://janasabuj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Touring the Kubernetes Istio Ambient Mesh — Part 1: Setup, ZTunnel</title>
+      <link>https://janasabuj.github.io/posts/istio-ambient/</link>
+      <pubDate>Sun, 16 Jun 2024 19:39:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/istio-ambient/</guid>
+      <description>Recently, I have been working a lot with Istio Service Mesh in Flipkart.Now that Istio Ambient Mesh has been released, it was high time that I do my bit of self-exploration of the same, before moving ahead with it in Production. The long weekend seemed perfect for this :)
+In this blog, we setup our home kubernetes cluster and start exploring the Istio ambient mesh. The focal point of this new dataplane mode is that it is a sidecar-less model and hence the fat cash savings we have against compute power and cloud bills.</description>
+    </item>
     
     <item>
       <title>Clearing GCP Professional Cloud Developer Certification</title>
