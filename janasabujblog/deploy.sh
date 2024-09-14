@@ -33,3 +33,14 @@ git push --force git@github.com:${GitHubUser}/JanaSabuj.github.io.git master
 
 # export GitHubEmail=sabujlovescoding@gmail.com
 # export GitHubUser=JanaSabuj
+
+#  1685  hugo server
+#  1687  hugo server
+#  1688  hugo new posts/istio-ambient.md
+#  1690  hugo server
+#  1705  cd janasabujblog/themes/hugo-bearblog/
+#  1713  hugo server
+#  1718  hugo server
+#  1728  cd hugo-bearblog/
+#  1739  cd hugo-bearblog/
+#  2000  history | grep hugo
